@@ -1,6 +1,6 @@
 const Endpoint = 'https://hello-rails-back-end.herokuapp.com/api/greeting';
 
-//action types
+// action types
 const FETCH_GREETING = 'FETCH_GREETING';
 
 // initial state
@@ -14,9 +14,9 @@ export default (state = initialState, action) => {
     default:
       return state;
   }
-}
+};
 
-//action creators
+// action creators
 export const fetchGreeting = () => async (dispatch) => {
   const res = await fetch(Endpoint, {
     method: 'GET',
