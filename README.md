@@ -13,7 +13,6 @@
 ## Live Demo
 
 [Rails Repository Link](https://github.com/aristides1000/hello-rails-back-end)
-[Live Demo Link](https://tender-brahmagupta-a72215.netlify.app/)
 
 ## Getting Started
 1. Clone this repo on your local machine
